@@ -11,7 +11,7 @@ const Login = () => {
 
   const onSubmitHandler = (event) => {
     event.preventDefault();
-    if (currState === "Sign up ") {
+    if (currState === "Sign up") {
       signup(username, email, password);
     }
   };
